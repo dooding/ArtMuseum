@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD33ED78225C562100E5D533 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD33ED77225C562100E5D533 /* AppDelegate.swift */; };
+		CD33ED7A225C562200E5D533 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD33ED79225C562200E5D533 /* ViewController.swift */; };
+		CD33ED7D225C562200E5D533 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD33ED7B225C562200E5D533 /* Main.storyboard */; };
+		CD33ED80225C562200E5D533 /* ArtMuseum.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CD33ED7E225C562200E5D533 /* ArtMuseum.xcdatamodeld */; };
+		CD33ED82225C562B00E5D533 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD33ED81225C562B00E5D533 /* Assets.xcassets */; };
+		CD33ED85225C562B00E5D533 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD33ED83225C562B00E5D533 /* LaunchScreen.storyboard */; };
+		CD33ED90225C562B00E5D533 /* ArtMuseumUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD33ED8F225C562B00E5D533 /* ArtMuseumUITests.swift */; };
+		CD560D51225CC5E5005B1B19 /* ArtWorksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD560D50225CC5E5005B1B19 /* ArtWorksViewController.swift */; };
+		CD560D53225CC776005B1B19 /* ChooseWorksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD560D52225CC776005B1B19 /* ChooseWorksViewController.swift */; };
+		CD560D55225CDBAF005B1B19 /* ArtPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD560D54225CDBAF005B1B19 /* ArtPickerViewController.swift */; };
+		CD560D5C226243D9005B1B19 /* map.PNG in Resources */ = {isa = PBXBuildFile; fileRef = CD560D5A226243D8005B1B19 /* map.PNG */; };
+		CD560D5D226243D9005B1B19 /* one block.PNG in Resources */ = {isa = PBXBuildFile; fileRef = CD560D5B226243D8005B1B19 /* one block.PNG */; };
+		CD560D5F226244BE005B1B19 /* orsay museum.JPG in Resources */ = {isa = PBXBuildFile; fileRef = CD560D5E226244BE005B1B19 /* orsay museum.JPG */; };
+		CD560D63226252C4005B1B19 /* room.JPG in Resources */ = {isa = PBXBuildFile; fileRef = CD560D60226252C3005B1B19 /* room.JPG */; };
+		CD560D64226252C4005B1B19 /* starry night of arles.JPG in Resources */ = {isa = PBXBuildFile; fileRef = CD560D61226252C4005B1B19 /* starry night of arles.JPG */; };
+		CD560D672262E997005B1B19 /* noon rest.JPG in Resources */ = {isa = PBXBuildFile; fileRef = CD560D662262E997005B1B19 /* noon rest.JPG */; };
+		CD560D6922631FAA005B1B19 /* TodoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD560D6822631FAA005B1B19 /* TodoViewController.swift */; };
+		CD560D6B22631FC3005B1B19 /* TodoInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD560D6A22631FC3005B1B19 /* TodoInputViewController.swift */; };
+		CD560D6D226320EF005B1B19 /* TaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD560D6C226320EF005B1B19 /* TaskCell.swift */; };
+		CD8EEF04226338C100DEF530 /* PresentLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8EEF03226338C100DEF530 /* PresentLocationViewController.swift */; };
+		CD8EEF0622633A1A00DEF530 /* starry night.PNG in Resources */ = {isa = PBXBuildFile; fileRef = CD8EEF0522633A1900DEF530 /* starry night.PNG */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD33ED8C225C562B00E5D533 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD33ED6C225C562100E5D533 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD33ED73225C562100E5D533;
+			remoteInfo = ArtMuseum;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD33ED74225C562100E5D533 /* ArtMuseum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArtMuseum.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD33ED77225C562100E5D533 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD33ED79225C562200E5D533 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CD33ED7C225C562200E5D533 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD33ED7F225C562200E5D533 /* ArtMuseum.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ArtMuseum.xcdatamodel; sourceTree = "<group>"; };
+		CD33ED81225C562B00E5D533 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD33ED84225C562B00E5D533 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD33ED86225C562B00E5D533 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD33ED8B225C562B00E5D533 /* ArtMuseumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArtMuseumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD33ED8F225C562B00E5D533 /* ArtMuseumUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtMuseumUITests.swift; sourceTree = "<group>"; };
+		CD33ED91225C562B00E5D533 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD560D50225CC5E5005B1B19 /* ArtWorksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtWorksViewController.swift; sourceTree = "<group>"; };
+		CD560D52225CC776005B1B19 /* ChooseWorksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseWorksViewController.swift; sourceTree = "<group>"; };
+		CD560D54225CDBAF005B1B19 /* ArtPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtPickerViewController.swift; sourceTree = "<group>"; };
+		CD560D5A226243D8005B1B19 /* map.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map.PNG; sourceTree = "<group>"; };
+		CD560D5B226243D8005B1B19 /* one block.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "one block.PNG"; sourceTree = "<group>"; };
+		CD560D5E226244BE005B1B19 /* orsay museum.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "orsay museum.JPG"; sourceTree = "<group>"; };
+		CD560D60226252C3005B1B19 /* room.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = room.JPG; sourceTree = "<group>"; };
+		CD560D61226252C4005B1B19 /* starry night of arles.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "starry night of arles.JPG"; sourceTree = "<group>"; };
+		CD560D662262E997005B1B19 /* noon rest.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "noon rest.JPG"; sourceTree = "<group>"; };
+		CD560D6822631FAA005B1B19 /* TodoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoViewController.swift; sourceTree = "<group>"; };
+		CD560D6A22631FC3005B1B19 /* TodoInputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoInputViewController.swift; sourceTree = "<group>"; };
+		CD560D6C226320EF005B1B19 /* TaskCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCell.swift; sourceTree = "<group>"; };
+		CD8EEF03226338C100DEF530 /* PresentLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentLocationViewController.swift; sourceTree = "<group>"; };
+		CD8EEF0522633A1900DEF530 /* starry night.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "starry night.PNG"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD33ED71225C562100E5D533 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD33ED88225C562B00E5D533 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD33ED6B225C562100E5D533 = {
+			isa = PBXGroup;
+			children = (
+				CD33ED76225C562100E5D533 /* ArtMuseum */,
+				CD33ED8E225C562B00E5D533 /* ArtMuseumUITests */,
+				CD33ED75225C562100E5D533 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD33ED75225C562100E5D533 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD33ED74225C562100E5D533 /* ArtMuseum.app */,
+				CD33ED8B225C562B00E5D533 /* ArtMuseumUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD33ED76225C562100E5D533 /* ArtMuseum */ = {
+			isa = PBXGroup;
+			children = (
+				CD8EEF0522633A1900DEF530 /* starry night.PNG */,
+				CD560D662262E997005B1B19 /* noon rest.JPG */,
+				CD560D60226252C3005B1B19 /* room.JPG */,
+				CD560D61226252C4005B1B19 /* starry night of arles.JPG */,
+				CD560D5E226244BE005B1B19 /* orsay museum.JPG */,
+				CD560D5B226243D8005B1B19 /* one block.PNG */,
+				CD560D5A226243D8005B1B19 /* map.PNG */,
+				CD33ED77225C562100E5D533 /* AppDelegate.swift */,
+				CD33ED79225C562200E5D533 /* ViewController.swift */,
+				CD560D50225CC5E5005B1B19 /* ArtWorksViewController.swift */,
+				CD560D52225CC776005B1B19 /* ChooseWorksViewController.swift */,
+				CD560D54225CDBAF005B1B19 /* ArtPickerViewController.swift */,
+				CD33ED81225C562B00E5D533 /* Assets.xcassets */,
+				CD33ED83225C562B00E5D533 /* LaunchScreen.storyboard */,
+				CD33ED86225C562B00E5D533 /* Info.plist */,
+				CD33ED7E225C562200E5D533 /* ArtMuseum.xcdatamodeld */,
+				CD33ED7B225C562200E5D533 /* Main.storyboard */,
+				CD560D6822631FAA005B1B19 /* TodoViewController.swift */,
+				CD560D6A22631FC3005B1B19 /* TodoInputViewController.swift */,
+				CD560D6C226320EF005B1B19 /* TaskCell.swift */,
+				CD8EEF03226338C100DEF530 /* PresentLocationViewController.swift */,
+			);
+			path = ArtMuseum;
+			sourceTree = "<group>";
+		};
+		CD33ED8E225C562B00E5D533 /* ArtMuseumUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD33ED8F225C562B00E5D533 /* ArtMuseumUITests.swift */,
+				CD33ED91225C562B00E5D533 /* Info.plist */,
+			);
+			path = ArtMuseumUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD33ED73225C562100E5D533 /* ArtMuseum */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD33ED94225C562B00E5D533 /* Build configuration list for PBXNativeTarget "ArtMuseum" */;
+			buildPhases = (
+				CD33ED70225C562100E5D533 /* Sources */,
+				CD33ED71225C562100E5D533 /* Frameworks */,
+				CD33ED72225C562100E5D533 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArtMuseum;
+			productName = ArtMuseum;
+			productReference = CD33ED74225C562100E5D533 /* ArtMuseum.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD33ED8A225C562B00E5D533 /* ArtMuseumUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD33ED97225C562B00E5D533 /* Build configuration list for PBXNativeTarget "ArtMuseumUITests" */;
+			buildPhases = (
+				CD33ED87225C562B00E5D533 /* Sources */,
+				CD33ED88225C562B00E5D533 /* Frameworks */,
+				CD33ED89225C562B00E5D533 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD33ED8D225C562B00E5D533 /* PBXTargetDependency */,
+			);
+			name = ArtMuseumUITests;
+			productName = ArtMuseumUITests;
+			productReference = CD33ED8B225C562B00E5D533 /* ArtMuseumUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD33ED6C225C562100E5D533 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = SWUCOMPUTER;
+				TargetAttributes = {
+					CD33ED73225C562100E5D533 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					CD33ED8A225C562B00E5D533 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = CD33ED73225C562100E5D533;
+					};
+				};
+			};
+			buildConfigurationList = CD33ED6F225C562100E5D533 /* Build configuration list for PBXProject "ArtMuseum" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD33ED6B225C562100E5D533;
+			productRefGroup = CD33ED75225C562100E5D533 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD33ED73225C562100E5D533 /* ArtMuseum */,
+				CD33ED8A225C562B00E5D533 /* ArtMuseumUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD33ED72225C562100E5D533 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD560D5C226243D9005B1B19 /* map.PNG in Resources */,
+				CD8EEF0622633A1A00DEF530 /* starry night.PNG in Resources */,
+				CD33ED85225C562B00E5D533 /* LaunchScreen.storyboard in Resources */,
+				CD560D5D226243D9005B1B19 /* one block.PNG in Resources */,
+				CD560D64226252C4005B1B19 /* starry night of arles.JPG in Resources */,
+				CD33ED82225C562B00E5D533 /* Assets.xcassets in Resources */,
+				CD33ED7D225C562200E5D533 /* Main.storyboard in Resources */,
+				CD560D672262E997005B1B19 /* noon rest.JPG in Resources */,
+				CD560D5F226244BE005B1B19 /* orsay museum.JPG in Resources */,
+				CD560D63226252C4005B1B19 /* room.JPG in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD33ED89225C562B00E5D533 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD33ED70225C562100E5D533 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD560D53225CC776005B1B19 /* ChooseWorksViewController.swift in Sources */,
+				CD33ED7A225C562200E5D533 /* ViewController.swift in Sources */,
+				CD560D6922631FAA005B1B19 /* TodoViewController.swift in Sources */,
+				CD8EEF04226338C100DEF530 /* PresentLocationViewController.swift in Sources */,
+				CD560D6D226320EF005B1B19 /* TaskCell.swift in Sources */,
+				CD33ED78225C562100E5D533 /* AppDelegate.swift in Sources */,
+				CD33ED80225C562200E5D533 /* ArtMuseum.xcdatamodeld in Sources */,
+				CD560D6B22631FC3005B1B19 /* TodoInputViewController.swift in Sources */,
+				CD560D55225CDBAF005B1B19 /* ArtPickerViewController.swift in Sources */,
+				CD560D51225CC5E5005B1B19 /* ArtWorksViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD33ED87225C562B00E5D533 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD33ED90225C562B00E5D533 /* ArtMuseumUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD33ED8D225C562B00E5D533 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD33ED73225C562100E5D533 /* ArtMuseum */;
+			targetProxy = CD33ED8C225C562B00E5D533 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD33ED7B225C562200E5D533 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD33ED7C225C562200E5D533 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD33ED83225C562B00E5D533 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD33ED84225C562B00E5D533 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD33ED92225C562B00E5D533 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CD33ED93225C562B00E5D533 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD33ED95225C562B00E5D533 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ArtMuseum/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = swu.ac.kr.ArtMuseum;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD33ED96225C562B00E5D533 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ArtMuseum/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = swu.ac.kr.ArtMuseum;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CD33ED98225C562B00E5D533 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ArtMuseumUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = swu.ac.kr.ArtMuseumUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ArtMuseum;
+			};
+			name = Debug;
+		};
+		CD33ED99225C562B00E5D533 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ArtMuseumUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = swu.ac.kr.ArtMuseumUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ArtMuseum;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD33ED6F225C562100E5D533 /* Build configuration list for PBXProject "ArtMuseum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD33ED92225C562B00E5D533 /* Debug */,
+				CD33ED93225C562B00E5D533 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD33ED94225C562B00E5D533 /* Build configuration list for PBXNativeTarget "ArtMuseum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD33ED95225C562B00E5D533 /* Debug */,
+				CD33ED96225C562B00E5D533 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD33ED97225C562B00E5D533 /* Build configuration list for PBXNativeTarget "ArtMuseumUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD33ED98225C562B00E5D533 /* Debug */,
+				CD33ED99225C562B00E5D533 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CD33ED7E225C562200E5D533 /* ArtMuseum.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CD33ED7F225C562200E5D533 /* ArtMuseum.xcdatamodel */,
+			);
+			currentVersion = CD33ED7F225C562200E5D533 /* ArtMuseum.xcdatamodel */;
+			path = ArtMuseum.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CD33ED6C225C562100E5D533 /* Project object */;
+}
